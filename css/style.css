@@ -1,0 +1,111 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+#main {
+	display: flex;
+}
+#set {
+	width: 400px;
+	height: 600px;
+	border: 1px solid #000;
+	background: #f5f5f5;
+}
+.wrap {
+	width: 800px;
+	border: 1px solid #000;
+}
+.parts1 {
+	width: 800px;
+	height: 123px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+.parts2 {
+	width: 800px;
+	height: 123px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+.parts3 {
+	width: 800px;
+	height: 123px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+.move {
+	border: 2px solid #c71585;
+	color: #fffafa;
+	width: 180px;
+	height: 50px;
+  	border-radius: 10px;
+	padding:10px 0;
+	margin: 5px;
+	text-align:center;
+	cursor: move;
+}
+.move2 {
+	border: 2px solid #006400;
+	color: #fffafa;
+	width: 180px;
+	height: 50px;
+  	border-radius: 10px;
+	padding:10px 0;
+	margin: 5px;
+	text-align:center;
+	cursor: move;
+}
+.move3 {
+	border: 2px solid #191970;
+	color: #fffafa;
+	width: 180px;
+	height: 50px;
+  	border-radius: 10px;
+	padding:10px 0;
+	margin: 5px;
+	text-align:center;
+	cursor: move;
+}
+.red {
+	background: #f4cbe6;
+}
+
+.green {
+	background: #66cdaa;
+}
+
+.blue {
+	background: #87cefa;
+}
+.orange {
+	background: orange;
+}
+img {
+	width: 795px;
+	height: 464px;
+}
